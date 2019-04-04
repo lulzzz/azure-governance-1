@@ -46,6 +46,7 @@ else {
 function verify_application(app_file, res_file) {
     console.log('verify_application: ' + app_file + ' from resources ' + res_file);
     var app = new App(app_file, res_file);
+    app.verify();
 }
 
 
