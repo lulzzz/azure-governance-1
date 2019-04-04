@@ -1,34 +1,31 @@
 {
   "name": "Application 1",
   "resource_group": "cjoakim-core",
-  "license": "",
-  "keywords": [],
-  "main": "main.js",
   "requirements": [
     {
       "type": "Microsoft.ContainerRegistry/registries",
       "location": "eastus",
       "sku_tier": "Standard",
-      "tags": []
+      "tags": [{"app": "app1"}]
     },
     {
       "type": "Microsoft.EventHub/namespaces",
       "location": "eastus",
       "sku_tier": "Standard",
-      "tags": []
+      "tags": [{"app": "app1"}]
     },
     {
       "type": "Microsoft.ServiceBus/namespaces",
       "location": "eastus",
       "sku_tier": "Standard",
-      "tags": []
+      "tags": [{"app": "app1"}]
     },
     {
       "type": "Microsoft.Storage/storageAccounts",
       "location": "eastus",
       "kind": "StorageV2",
       "sku_tier": "Standard",
-      "tags": []
+      "tags": [{"app": "app1"}]
     }
   ]
 }
