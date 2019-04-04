@@ -16,7 +16,7 @@ const Requirement = require('./lib/requirement.js').Requirement;
 
 if (process.argv.length < 3) {
     console.log("Invalid program args; please specify a runtime function as follows:");
-    console.log("node main.js verify_application designs/app1.json");
+    console.log("node main.js verify_application designs/app1.json data/resource-list.json");
     console.log("node main.js list_subscription_resources");
     console.log("");
     process.exit();
@@ -28,7 +28,8 @@ else {
 
         case 'verify_application':
             var app_file = process.argv[3];
-            verify_application(app_file);
+            var res_file = process.argv[4];
+            verify_application(app_file, res_file);
             break; 
 
         case 'list_subscription_resources':
@@ -42,9 +43,9 @@ else {
 
 // top level functions called from main
 
-function verify_application(app_file) {
-    console.log('verify_application: ' + app_file);
-    var app = new App(app_file);
+function verify_application(app_file, res_file) {
+    console.log('verify_application: ' + app_file + ' from resources ' + res_file);
+    var app = new App(app_file, res_file);
 }
 
 
