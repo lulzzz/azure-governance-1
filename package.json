@@ -1,0 +1,15 @@
+{
+  "name": "azure-governance",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Using Node.js to assist with Azure Governance",
+  "author": "Chris Joakim",
+  "license": "",
+  "keywords": [],
+  "main": "main.js",
+  "dependencies": {
+    "azure": "^2.3.1-preview"
+  },
+  "devDependencies": {},
+  "scripts": {}
+}

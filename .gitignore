@@ -1,3 +1,10 @@
+# cj
+.vscode/
+
+**/node_modules/*
+**/tmp/*
+
+# GitHub Generated
 # Logs
 logs
 *.log
