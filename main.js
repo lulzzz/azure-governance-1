@@ -7,10 +7,16 @@ const util = require("util");
 const msRestAzure = require('ms-rest-azure');
 const resourceManagement = require("azure-arm-resource");
 
+// Application code is in the lib/ directory
+const App = require('./lib/app.js').App;
+const Resource = require('./lib/resource.js').Resource;
+const Requirement = require('./lib/requirement.js').Requirement;
+
 // main() entry-point logic
 
 if (process.argv.length < 3) {
     console.log("Invalid program args; please specify a runtime function as follows:");
+    console.log("node main.js verify_application designs/app1.json");
     console.log("node main.js list_subscription_resources");
     console.log("");
     process.exit();
@@ -19,6 +25,11 @@ else {
     cli_function = process.argv[2];
 
     switch(cli_function) {
+
+        case 'verify_application':
+            var app_file = process.argv[3];
+            verify_application(app_file);
+            break; 
 
         case 'list_subscription_resources':
             list_subscription_resources();
@@ -30,6 +41,12 @@ else {
 }
 
 // top level functions called from main
+
+function verify_application(app_file) {
+    console.log('verify_application: ' + app_file);
+    var app = new App(app_file);
+}
+
 
 function list_subscription_resources() {
     var subscr_id = process.env.AZURE_SUBSCRIPTION_ID;
