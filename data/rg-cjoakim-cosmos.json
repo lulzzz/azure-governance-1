@@ -1,0 +1,84 @@
+[
+  {
+    "id": "/subscriptions/11111111-d222-3333-44c4-a12345e8888z/resourceGroups/cjoakim-cosmos/providers/Microsoft.DocumentDb/databaseAccounts/cjoakimcosmosdbcass",
+    "identity": null,
+    "kind": "GlobalDocumentDB",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "cjoakimcosmosdbcass",
+    "plan": null,
+    "properties": null,
+    "resourceGroup": "cjoakim-cosmos",
+    "sku": null,
+    "tags": {
+      "defaultExperience": "Cassandra"
+    },
+    "type": "Microsoft.DocumentDb/databaseAccounts"
+  },
+  {
+    "id": "/subscriptions/11111111-d222-3333-44c4-a12345e8888z/resourceGroups/cjoakim-cosmos/providers/Microsoft.DocumentDb/databaseAccounts/cjoakimcosmosdbgremlin",
+    "identity": null,
+    "kind": "GlobalDocumentDB",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "cjoakimcosmosdbgremlin",
+    "plan": null,
+    "properties": null,
+    "resourceGroup": "cjoakim-cosmos",
+    "sku": null,
+    "tags": {
+      "app": "travel",
+      "defaultExperience": "Gremlin (graph)"
+    },
+    "type": "Microsoft.DocumentDb/databaseAccounts"
+  },
+  {
+    "id": "/subscriptions/11111111-d222-3333-44c4-a12345e8888z/resourceGroups/cjoakim-cosmos/providers/Microsoft.DocumentDb/databaseAccounts/cjoakimcosmosdbmongo",
+    "identity": null,
+    "kind": "MongoDB",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "cjoakimcosmosdbmongo",
+    "plan": null,
+    "properties": null,
+    "resourceGroup": "cjoakim-cosmos",
+    "sku": null,
+    "tags": {
+      "defaultExperience": "Azure Cosmos DB for MongoDB API"
+    },
+    "type": "Microsoft.DocumentDb/databaseAccounts"
+  },
+  {
+    "id": "/subscriptions/11111111-d222-3333-44c4-a12345e8888z/resourceGroups/cjoakim-cosmos/providers/Microsoft.DocumentDb/databaseAccounts/cjoakimcosmosdbsql",
+    "identity": null,
+    "kind": "GlobalDocumentDB",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "cjoakimcosmosdbsql",
+    "plan": null,
+    "properties": null,
+    "resourceGroup": "cjoakim-cosmos",
+    "sku": null,
+    "tags": {
+      "app": "travel",
+      "defaultExperience": "Core (SQL)"
+    },
+    "type": "Microsoft.DocumentDb/databaseAccounts"
+  },
+  {
+    "id": "/subscriptions/11111111-d222-3333-44c4-a12345e8888z/resourceGroups/cjoakim-cosmos/providers/Microsoft.DocumentDb/databaseAccounts/cjoakimtable",
+    "identity": null,
+    "kind": "GlobalDocumentDB",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "cjoakimtable",
+    "plan": null,
+    "properties": null,
+    "resourceGroup": "cjoakim-cosmos",
+    "sku": null,
+    "tags": {
+      "defaultExperience": "Azure Table"
+    },
+    "type": "Microsoft.DocumentDb/databaseAccounts"
+  }
+]

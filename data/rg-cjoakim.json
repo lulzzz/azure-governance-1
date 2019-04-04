@@ -1,0 +1,126 @@
+[
+  {
+    "id": "/subscriptions/11111111-d222-3333-44c4-a12345e8888z/resourceGroups/cjoakim-core/providers/Microsoft.Cache/Redis/cjoakimredis",
+    "identity": null,
+    "kind": null,
+    "location": "eastus",
+    "managedBy": null,
+    "name": "cjoakimredis",
+    "plan": null,
+    "properties": null,
+    "resourceGroup": "cjoakim-core",
+    "sku": null,
+    "tags": {
+      "app": "app1"
+    },
+    "type": "Microsoft.Cache/Redis"
+  },
+  {
+    "id": "/subscriptions/11111111-d222-3333-44c4-a12345e8888z/resourceGroups/cjoakim-core/providers/Microsoft.ContainerRegistry/registries/cjoakimacr",
+    "identity": null,
+    "kind": null,
+    "location": "eastus",
+    "managedBy": null,
+    "name": "cjoakimacr",
+    "plan": null,
+    "properties": null,
+    "resourceGroup": "cjoakim-core",
+    "sku": {
+      "capacity": null,
+      "family": null,
+      "model": null,
+      "name": "Standard",
+      "size": null,
+      "tier": "Standard"
+    },
+    "tags": {
+      "app": "app1"
+    },
+    "type": "Microsoft.ContainerRegistry/registries"
+  },
+  {
+    "id": "/subscriptions/11111111-d222-3333-44c4-a12345e8888z/resourceGroups/cjoakim-core/providers/Microsoft.EventHub/namespaces/cjoakimeventhubs",
+    "identity": null,
+    "kind": null,
+    "location": "eastus",
+    "managedBy": null,
+    "name": "cjoakimeventhubs",
+    "plan": null,
+    "properties": null,
+    "resourceGroup": "cjoakim-core",
+    "sku": {
+      "capacity": 1,
+      "family": null,
+      "model": null,
+      "name": "Standard",
+      "size": null,
+      "tier": "Standard"
+    },
+    "tags": {
+      "app": "app1"
+    },
+    "type": "Microsoft.EventHub/namespaces"
+  },
+  {
+    "id": "/subscriptions/11111111-d222-3333-44c4-a12345e8888z/resourceGroups/cjoakim-core/providers/Microsoft.KeyVault/vaults/cjoakimkeyvault",
+    "identity": null,
+    "kind": null,
+    "location": "eastus",
+    "managedBy": null,
+    "name": "cjoakimkeyvault",
+    "plan": null,
+    "properties": null,
+    "resourceGroup": "cjoakim-core",
+    "sku": null,
+    "tags": {
+      "app": "app1"
+    },
+    "type": "Microsoft.KeyVault/vaults"
+  },
+  {
+    "id": "/subscriptions/11111111-d222-3333-44c4-a12345e8888z/resourceGroups/cjoakim-core/providers/Microsoft.ServiceBus/namespaces/cjoakimservicebus",
+    "identity": null,
+    "kind": null,
+    "location": "eastus",
+    "managedBy": null,
+    "name": "cjoakimservicebus",
+    "plan": null,
+    "properties": null,
+    "resourceGroup": "cjoakim-core",
+    "sku": {
+      "capacity": null,
+      "family": null,
+      "model": null,
+      "name": "Standard",
+      "size": null,
+      "tier": "Standard"
+    },
+    "tags": {
+      "app": "app1"
+    },
+    "type": "Microsoft.ServiceBus/namespaces"
+  },
+  {
+    "id": "/subscriptions/11111111-d222-3333-44c4-a12345e8888z/resourceGroups/cjoakim-core/providers/Microsoft.Storage/storageAccounts/cjoakimstdstorage",
+    "identity": null,
+    "kind": "StorageV2",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "cjoakimstdstorage",
+    "plan": null,
+    "properties": null,
+    "resourceGroup": "cjoakim-core",
+    "sku": {
+      "capacity": null,
+      "family": null,
+      "model": null,
+      "name": "Standard_LRS",
+      "size": null,
+      "tier": "Standard"
+    },
+    "tags": {
+      "app": "app2"
+    },
+    "type": "Microsoft.Storage/storageAccounts"
+  }
+]
