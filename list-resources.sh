@@ -28,4 +28,3 @@ echo 'deleting unscrubbed files...'
 rm data/*unsubscrubbed.json
 
 echo 'done'
-
