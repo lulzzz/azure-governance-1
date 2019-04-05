@@ -6,26 +6,26 @@
       "type": "Microsoft.ContainerRegistry/registries",
       "location": "eastus",
       "sku_tier": "Standard",
-      "tags": [{"app": "app1"}]
+      "tags": {"app": "app1"}
     },
     {
       "type": "Microsoft.EventHub/namespaces",
       "location": "eastus",
       "sku_tier": "Standard",
-      "tags": [{"app": "app1"}]
+      "tags": {"app": "app1"}
     },
     {
       "type": "Microsoft.ServiceBus/namespaces",
       "location": "eastus",
       "sku_tier": "Standard",
-      "tags": [{"app": "app1"}]
+      "tags": {"app": "app1"}
     },
     {
       "type": "Microsoft.Storage/storageAccounts",
       "location": "eastus",
       "kind": "StorageV2",
       "sku_tier": "Standard",
-      "tags": [{"app": "app1"}]
+      "tags": {"app": "app1"}
     }
   ]
 }
